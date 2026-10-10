@@ -29,7 +29,7 @@ La estructura es la siguiente:
       # también puedes encontrarlos en el aula virtual
     /ejemplos/
       # código de clase (referencia, no evaluable)
-    /actividad-1/
+    /actividad1/
       README.md # enunciado actividad 1
     /actividad-2/
       README.md # enunciado actividad 2
@@ -61,7 +61,7 @@ Esta es la estructura que espero:
 ``` shell
 /bloque-1
   /tema-1
-    /actividad-1/
+    /actividad1/
       README.md
       /actividad1/       # package actividad1;
         Main.java
@@ -106,7 +106,7 @@ Esto es un ejemplo:
 ``` shell
 /bloque-1
   /tema-1
-    /actividad-1/ # README.md + package actividad1/
+    /actividad1/ # README.md + package actividad1/
     /actividad-2/ # README.md + package actividad2/
     /actividad-3/ # README.md + package actividad3/
     /actividad-4/ # README.md + package actividad4/

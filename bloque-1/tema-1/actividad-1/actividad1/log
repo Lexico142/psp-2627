@@ -1,0 +1,262 @@
+C:\Users\LexPr\.jdks\openjdk-26.0.1\bin\java.exe "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.2.0.2\lib\idea_rt.jar=63355" -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -classpath C:\Users\LexPr\Documents\GitHub\psp-2627\out\production\psp-2627 actividad1.Main
+### Receta 1 ###
+Preparando receta: Juan
+====================
+Cocinero: Juan
+Hora de inicio: 13:15:12.743407500
+Ejecutando paso: Poner agua a hervir en la olla
+Recipiente: Olla
+Ingredientes:
+1500 ml de Agua
+10 g de Sal
+Duración: 0.207 segundos
+Hora de fin: 13:15:12.973346600
+====================
+====================
+Cocinero: Juan
+Hora de inicio: 13:15:12.973346600
+Ejecutando paso: Cocer los espaguetis en la olla
+Recipiente: Olla
+Ingredientes:
+250 g de Espaguetis
+Duración: 0.279 segundos
+Hora de fin: 13:15:13.254651300
+====================
+====================
+Cocinero: Juan
+Hora de inicio: 13:15:13.254651300
+Ejecutando paso: Sofreír la cebolla y el ajo en la sartén con aceite
+Recipiente: Sartén
+Ingredientes:
+30 ml de Aceite de oliva
+100 g de Cebolla picada
+2 dientes de Ajo picado
+Duración: 0.234 segundos
+Hora de fin: 13:15:13.490163200
+====================
+====================
+Cocinero: Juan
+Hora de inicio: 13:15:13.490163200
+Ejecutando paso: Añadir la carne picada y dorarla
+Recipiente: Sartén
+Ingredientes:
+300 g de Carne picada
+Duración: 0.307 segundos
+Hora de fin: 13:15:13.798442700
+====================
+====================
+Cocinero: Juan
+Hora de inicio: 13:15:13.798442700
+Ejecutando paso: Añadir el tomate y dejar reducir la salsa
+Recipiente: Sartén
+Ingredientes:
+200 g de Tomate frito
+Duración: 0.495 segundos
+Hora de fin: 13:15:14.294427
+====================
+====================
+Cocinero: Juan
+Hora de inicio: 13:15:14.294427
+Ejecutando paso: Escurrir la pasta
+Recipiente: Escurridor
+Ingredientes:
+250 g de Espaguetis
+Duración: 0.381 segundos
+Hora de fin: 13:15:14.676406100
+====================
+====================
+Cocinero: Juan
+Hora de inicio: 13:15:14.676406100
+Ejecutando paso: Mezclar la pasta con la salsa boloñesa
+Recipiente: Sartén
+Ingredientes:
+250 g de Espaguetis
+Duración: 0.206 segundos
+Hora de fin: 13:15:14.883446200
+====================
+====================
+Cocinero: Juan
+Hora de inicio: 13:15:14.883446200
+Ejecutando paso: Emplatar los espaguetis a la boloñesa
+Recipiente: Plato
+Ingredientes:
+Duración: 0.489 segundos
+Hora de fin: 13:15:15.374630500
+====================
+Tiempo total de preparación: 2.664 segundos
+### Receta 2 ###
+Preparando receta: Juan
+====================
+Cocinero: Juan
+Hora de inicio: 13:15:15.374630500
+Ejecutando paso: Poner agua a hervir en la olla
+Recipiente: Olla
+Ingredientes:
+1500 ml de Agua
+10 g de Sal
+Duración: 0.455 segundos
+Hora de fin: 13:15:15.831299200
+====================
+====================
+Cocinero: Juan
+Hora de inicio: 13:15:15.831299200
+Ejecutando paso: Cocer los espaguetis en la olla
+Recipiente: Olla
+Ingredientes:
+250 g de Espaguetis
+Duración: 0.656 segundos
+Hora de fin: 13:15:16.488949100
+====================
+====================
+Cocinero: Juan
+Hora de inicio: 13:15:16.488949100
+Ejecutando paso: Sofreír la cebolla y el ajo en la sartén con aceite
+Recipiente: Sartén
+Ingredientes:
+30 ml de Aceite de oliva
+100 g de Cebolla picada
+2 dientes de Ajo picado
+Duración: 0.429 segundos
+Hora de fin: 13:15:16.919268700
+====================
+====================
+Cocinero: Juan
+Hora de inicio: 13:15:16.919268700
+Ejecutando paso: Añadir la carne picada y dorarla
+Recipiente: Sartén
+Ingredientes:
+300 g de Carne picada
+Duración: 0.793 segundos
+Hora de fin: 13:15:17.713016200
+====================
+====================
+Cocinero: Juan
+Hora de inicio: 13:15:17.713016200
+Ejecutando paso: Añadir el tomate y dejar reducir la salsa
+Recipiente: Sartén
+Ingredientes:
+200 g de Tomate frito
+Duración: 0.374 segundos
+Hora de fin: 13:15:18.088165100
+====================
+====================
+Cocinero: Juan
+Hora de inicio: 13:15:18.088165100
+Ejecutando paso: Escurrir la pasta
+Recipiente: Escurridor
+Ingredientes:
+250 g de Espaguetis
+Duración: 0.232 segundos
+Hora de fin: 13:15:18.321792800
+====================
+====================
+Cocinero: Juan
+Hora de inicio: 13:15:18.321792800
+Ejecutando paso: Mezclar la pasta con la salsa boloñesa
+Recipiente: Sartén
+Ingredientes:
+250 g de Espaguetis
+Duración: 0.728 segundos
+Hora de fin: 13:15:19.050548500
+====================
+====================
+Cocinero: Juan
+Hora de inicio: 13:15:19.050858500
+Ejecutando paso: Emplatar los espaguetis a la boloñesa
+Recipiente: Plato
+Ingredientes:
+Duración: 0.621 segundos
+Hora de fin: 13:15:19.672726300
+====================
+Tiempo total de preparación: 4.298 segundos
+### Receta 3 ###
+Preparando receta: Juan
+====================
+Cocinero: Juan
+Hora de inicio: 13:15:19.672726300
+Ejecutando paso: Poner agua a hervir en la olla
+Recipiente: Olla
+Ingredientes:
+1500 ml de Agua
+10 g de Sal
+Duración: 0.22 segundos
+Hora de fin: 13:15:19.895024400
+====================
+====================
+Cocinero: Juan
+Hora de inicio: 13:15:19.895024400
+Ejecutando paso: Cocer los espaguetis en la olla
+Recipiente: Olla
+Ingredientes:
+250 g de Espaguetis
+Duración: 0.285 segundos
+Hora de fin: 13:15:20.181756700
+====================
+====================
+Cocinero: Juan
+Hora de inicio: 13:15:20.181756700
+Ejecutando paso: Sofreír la cebolla y el ajo en la sartén con aceite
+Recipiente: Sartén
+Ingredientes:
+30 ml de Aceite de oliva
+100 g de Cebolla picada
+2 dientes de Ajo picado
+Duración: 0.585 segundos
+Hora de fin: 13:15:20.768351800
+====================
+====================
+Cocinero: Juan
+Hora de inicio: 13:15:20.768351800
+Ejecutando paso: Añadir la carne picada y dorarla
+Recipiente: Sartén
+Ingredientes:
+300 g de Carne picada
+Duración: 0.435 segundos
+Hora de fin: 13:15:21.204484200
+====================
+====================
+Cocinero: Juan
+Hora de inicio: 13:15:21.204484200
+Ejecutando paso: Añadir el tomate y dejar reducir la salsa
+Recipiente: Sartén
+Ingredientes:
+200 g de Tomate frito
+Duración: 0.365 segundos
+Hora de fin: 13:15:21.570319400
+====================
+====================
+Cocinero: Juan
+Hora de inicio: 13:15:21.570319400
+Ejecutando paso: Escurrir la pasta
+Recipiente: Escurridor
+Ingredientes:
+250 g de Espaguetis
+Duración: 0.252 segundos
+Hora de fin: 13:15:21.823752900
+====================
+====================
+Cocinero: Juan
+Hora de inicio: 13:15:21.823752900
+Ejecutando paso: Mezclar la pasta con la salsa boloñesa
+Recipiente: Sartén
+Ingredientes:
+250 g de Espaguetis
+Duración: 0.24 segundos
+Hora de fin: 13:15:22.064450300
+====================
+====================
+Cocinero: Juan
+Hora de inicio: 13:15:22.064450300
+Ejecutando paso: Emplatar los espaguetis a la boloñesa
+Recipiente: Plato
+Ingredientes:
+Duración: 0.563 segundos
+Hora de fin: 13:15:22.628435700
+====================
+Tiempo total de preparación: 2.956 segundos
+=== Resumen de procesos ===
+Proceso 1: 2.664 segundos
+Proceso 2: 4.298 segundos
+Proceso 3: 2.956 segundos
+
+Process finished with exit code 0
