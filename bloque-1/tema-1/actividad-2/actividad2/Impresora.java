@@ -10,7 +10,7 @@ public class Impresora extends Thread {
     @Override
     public void run() {
         for (int i = 1; i <= 3; i++) {
-            System.out.println("[" + getName() + "] tecla " + i);
+            System.out.println("[" + getName() + "] imprimiendo hoja " + i);
             try {
                 Thread.sleep(Randomizador.getRandom());
             } catch (InterruptedException e) {
