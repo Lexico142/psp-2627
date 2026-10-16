@@ -1,4 +1,4 @@
-package e01;
+    package e01;
 
 /**
  * Opción A: heredar de Thread.

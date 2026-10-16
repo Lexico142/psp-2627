@@ -5,6 +5,8 @@
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/bloque-1/tema-1/actividad-1" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/bloque-1/tema-1/actividad-2" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/bloque-1/tema-1/ejemplos/01-crear-hilos" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/bloque-1/tema-1/ejemplos/02-memoria-compartida-problema" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
