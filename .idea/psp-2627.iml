@@ -9,6 +9,9 @@
       <sourceFolder url="file://$MODULE_DIR$/bloque-1/tema-1/ejemplos/02-memoria-compartida-problema" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/bloque-1/tema-1/actividad-3" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/bloque-1/tema-1/actividad-4" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/bloque-1/tema-1/actividad-5" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/bloque-1/tema-1/actividad-6" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/bloque-1/tema-1/ejemplos/10-secuencial-y-paralelo" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

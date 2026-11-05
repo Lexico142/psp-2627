@@ -19,10 +19,10 @@ import java.nio.file.StandardOpenOption;
  */
 public final class Canal {
 
-    public static final long PAUSA_MS = 50;
+    public static final long msPausa = 50;
     /** Los dos esperan esto antes de escribir su respuesta, para poder leer el intercambio. */
-    public static final long ANTES_DE_CONTESTAR_MS = 5_000;
-    public static final Path ARCHIVO = localizar();
+    public static final long msAntesContestar = 5_000;
+    public static final Path archivo = localizar();
 
     private Canal() {
     }
@@ -46,11 +46,11 @@ public final class Canal {
     }
 
     private static void escribir(String mensaje) throws IOException {
-        Files.createDirectories(ARCHIVO.getParent());
+        Files.createDirectories(archivo.getParent());
         // Cada proceso tiene su temporal. Si los dos usaran canal.txt.tmp,
         // uno lo renombra y el otro revienta: el archivo ya no está.
-        Path temporal = ARCHIVO.resolveSibling("canal-" + ProcessHandle.current().pid() + ".tmp");
-        Path cerrojo = ARCHIVO.resolveSibling("canal.lock");
+        Path temporal = archivo.resolveSibling("canal-" + ProcessHandle.current().pid() + ".tmp");
+        Path cerrojo = archivo.resolveSibling("canal.lock");
         try (FileChannel canal = FileChannel.open(cerrojo, StandardOpenOption.CREATE, StandardOpenOption.WRITE);
              FileLock candado = canal.lock()) {
             Files.writeString(temporal, mensaje + System.lineSeparator());
@@ -62,22 +62,22 @@ public final class Canal {
 
     private static void publicar(Path temporal) throws IOException {
         try {
-            Files.move(temporal, ARCHIVO, StandardCopyOption.REPLACE_EXISTING, StandardCopyOption.ATOMIC_MOVE);
+            Files.move(temporal, archivo, StandardCopyOption.REPLACE_EXISTING, StandardCopyOption.ATOMIC_MOVE);
         } catch (AtomicMoveNotSupportedException e) {
-            Files.move(temporal, ARCHIVO, StandardCopyOption.REPLACE_EXISTING);
+            Files.move(temporal, archivo, StandardCopyOption.REPLACE_EXISTING);
         } catch (NoSuchFileException e) {
             // En macOS el rename a veces falla si el otro proceso está leyendo canal.txt.
             if (Files.exists(temporal)) {
-                Files.copy(temporal, ARCHIVO, StandardCopyOption.REPLACE_EXISTING);
+                Files.copy(temporal, archivo, StandardCopyOption.REPLACE_EXISTING);
             }
         }
     }
 
     private static String leer() throws IOException {
-        if (!Files.exists(ARCHIVO)) {
+        if (!Files.exists(archivo)) {
             return "";
         }
-        return Files.readString(ARCHIVO).trim();
+        return Files.readString(archivo).trim();
     }
 
     /** Objeto JSON en una línea, sin espacios. Las comillas del texto se escapan. */
